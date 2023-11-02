@@ -11,6 +11,5 @@ import lombok.RequiredArgsConstructor;
 @Data
 @Builder
 public class LoginResponse {
-
     private String token;
 }
