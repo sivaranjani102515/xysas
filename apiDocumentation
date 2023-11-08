@@ -1,0 +1,44 @@
+API DOCUMENTATION
+
+http://localhost:8080/api/save
+{
+  "userName": "mathew john",
+  "userEmail": "20csa48@karpagamtech.ac.in",
+  "userMobileNumber": 1234567899,
+  "password": "1234",
+  "addressOne": "123 Main Street",
+  "addressTwo": "Apt 4B",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "pinCode": "10001"
+}
+http://localhost:8080/api/save/product
+
+   {
+    "product_name": "redcandles",
+    "short_des": "Short description of the product",
+    "long_des": "Longer description of the product",
+    "price": 1000,
+    "quantity": 700,
+    "categoryName": "candles" 
+}
+http://localhost:8080/api/login
+{"email": "siva@gmail.com.com",
+ "password": "1234"}
+http://localhost:8080/api/addCategory
+{
+  "categoryName": "candles",
+  "slug": "candles",
+  "parentCategory":{
+  "categoryName": "Electronics"}
+}
+http://localhost:8080/api/addCategory
+{
+    "categoryName":"housedecor",
+    "slug":"electronics"
+}
+http://localhost:8080/api/mainCategory
+http://localhost:8080/api/subCategory/housedecor
+http://localhost:8080/api/product/dell
+http://localhost:8080/api/place-order
