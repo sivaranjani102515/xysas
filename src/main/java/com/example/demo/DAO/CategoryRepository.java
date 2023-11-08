@@ -16,6 +16,7 @@ public interface CategoryRepository extends JpaRepository<Category,Integer> {
     @Query(value = "select category_name from category where parent_id IS NULL",nativeQuery = true)
     List<String> findParentCategory();
     @Query(value = "select category_name from category where parent_id=:parentId",nativeQuery = true)
-
     List<String> findChildCategory(int parentId);
+
+
 }
