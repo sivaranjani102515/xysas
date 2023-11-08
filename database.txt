@@ -1,0 +1,50 @@
+﻿    Database ScreenShot
+
+
+
+
+User Table
+
+
+
+Product Table
+
+
+
+
+
+Inventory Table
+
+
+
+
+
+Confirmation Table
+
+
+
+
+Order Table
+
+
+
+
+Order detail
+
+
+
+
+
+
+Category Table
+
+
+
+
+
+
+
+Addresss Table
+
+
+
